@@ -1,0 +1,126 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Rajdeep Hussey
+Updated: September 2017
+Notes:	 Hand coded for Practice
+
+*/
+
+
+/* --------------------------------------
+   Google fornt
+   -------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Baloo+Tammudu|Indie+Flower|Libre+Baskerville|Quicksand|Sedgwick+Ave+Display');
+/* --------------------------------------
+   well
+   -------------------------------------- */
+   .well {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.page-header h1{
+
+    font-family: 'Baloo Tammudu', cursive;
+}
+ .lead
+ { font-family: 'Libre Baskerville', cursive; }
+
+/*----------------------------------------
+  Logo icon
+  -----------------------------------------  */
+.navbar-brand {
+    text-shadow: -2px -1px 4px #e60c0c;
+}
+.myLogo1{padding: 0px;
+font-family: 'Quicksand', sans-serif;
+}
+.myLogo2 {
+    padding: 0px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin: 0px 0px 0px -2px;
+    font-size: 24px;
+}
+.myLogo
+{margin-top: 5px;
+margin-right: 20px}
+a:hover, a:focus {
+    color: #e20c51;
+    text-decoration: none;
+    cursor: pointer;
+    width: 70px
+    height 70px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+      width: 200px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {margin-top: 60px;}
+#myCarousel .item { 
+height: 400px }
+.carousel-caption{
+   font-size: 30px;
+   color:#ec0f0f;
+   text-shadow: 2px 2px 3px #091ae2;
+}
+.carousel-caption h4{
+   font-size: 40px;
+}
+#slide1 {
+   background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/carousel_large_03.png') top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+/*----------------------------------------
+ feature setion design 
+ ----------------------------------------- */
+ #features
+{text-align: center;}
+img.img-circle {
+    margin: -9px 0px 15px 0px;}
+
+
+
+.feature img
+{  width: 200px;
+height: 200px; }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
