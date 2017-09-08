@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 
+<header>
+  <script type="text/javascript">
+    function formchecker()
+         {
+          var x=document.forms["myForm"]["name"].value;
+         if (x==null|| x=="")
+           {alert("name can't be empty.");}
+         var y=document.forms["myForm"]["email"].value;
+         if (y==null|| y=="")
+           {alert("Email can't be empty.");}
+
+          }
+  </script>
+</header>
+
 <html lang="en">
   <head>
     
@@ -129,15 +144,15 @@
       </div><!-- end myCarousel -->
 
       <!-- ----------------------- Form section start from here ---------------------------------- -->
-      <form>
+      <form name="myForm" onsubmit="formchecker()">
   <div class="form-group">
     <label for="name">Hi! Name please..</label>
-    <input type="text" class="form-control" id="name"  placeholder="Enter name">
+    <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
     <small class="form-text text-muted">Please don't say,Whats in a Name!!!!  </small>
   </div>
   <div class="form-group">
     <label for="email">Your Email Id</label>
-    <input type="email" class="form-control" id="email" placeholder="Enater your email id">
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enater your email id">
     <small id="emailHelp" class="form-text text-muted">We never share your details !</small>
   </div>
   <div class="form-check">
